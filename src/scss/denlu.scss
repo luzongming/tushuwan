@@ -1,0 +1,319 @@
+@charset "utf-8";
+/*头部*/
+body{
+    background:#f6f4f5;
+}
+#top{
+    height: 91px;
+    background:#fff;
+    border-bottom:2px solid #E30000;}
+#top h1{
+    width: 154px;
+    float:left;
+    height: 69px;
+    padding-top:21px;
+    cursor:pointer;
+}
+#top .top_ri{
+    width: 422px;
+    height: 64px;
+    padding-top:26px;
+}
+#top .top_ri span{
+    font-family: 'Microsoft YaHei';
+    line-height: 36px;
+    height: 36px;
+    float: left;
+    color: #1a1a1a;
+    font-size: 12px;
+    background: url(../img/promiseAd.png)no-repeat left;
+    padding-left: 49px;
+}
+#top .top_ri .top1{
+    width: 141px;
+    background-position: left;
+}
+#top .top_ri .top2{
+    width: 147px;
+    background-position: -141px center; 
+} 
+#top .top_ri .top3{
+    width: 128px;
+    background-position: -286px center; 
+} 
+/*登录版块*/
+#middle{
+    width: 100%;
+    background:#F6F4F5;
+    padding-top:20px;
+        .mi_cent{
+            width: 1000px;
+            height: 758px;
+            padding:60px 25px 210px 51px;
+            background:#fff;
+                .mi_top{
+                    overflow: hidden; 
+                    height: 24px; 
+                    line-height: 24px;
+                    font-family: 'Microsoft YaHei';
+                    width: 212px;
+                    margin-left:80px;
+                        b{
+                            float: left; 
+                            color: #333; 
+                            height: 24px; 
+                            font-size: 22px; 
+                            padding-left: 13px; 
+                            border-left: 3px solid #e60000; 
+                            font-weight: bold;
+    
+                        }
+                        span{
+                            float: left; 
+                            padding-top: 5px; 
+                            font-size: 14px; 
+                            color: #e60000; 
+                            margin-left: 11px;
+                        }
+                }
+        }
+    
+}
+ 
+
+
+#middle .mi_cent .mi_top .backLogin{
+    float: right; 
+    color: #c1c1c1; 
+    font-size: 14px; 
+    padding-top: 5px;
+}
+#middle .mi_cent .mi_top .backLogin a{
+    color: #999999; 
+    text-decoration: none; 
+}
+#middle .mi_cent .mi_top .backLogin a:hover{
+    text-decoration: underline; 
+}
+#middle .mi_cent .mi_bottom{
+    margin-top: 50px;
+    overflow:hidden;
+    font-family: 'Microsoft YaHei';
+}
+#middle .mi_cent .mi_bottom .tel_num{
+    overflow:hidden;
+    position:relative;
+    padding-bottom: 30px;
+}
+#middle .mi_cent .mi_bottom .tel_num .lable{
+    height: 42px;
+    padding-right: 23px;
+    line-height: 42px;
+    width: 212px;
+    text-align: right;
+}
+#middle .mi_cent .mi_bottom .tel_num .lable span{
+    font-size: 16px;
+    color: #333;
+}
+#middle .mi_cent .mi_bottom .tel_num .inputWrap{
+    border-radius: 4px;
+    overflow: hidden;
+    float: left;
+    height: 40px;
+    border: 1px solid #dcdcdc;
+    width: 338px;
+    padding-right: 35px;
+    position: relative;
+    padding-top: 10px;
+}
+#middle .mi_cent .mi_bottom .tel_num .inputWrap .input{
+    color: #666;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-indent: 10px;
+}
+#middle .mi_cent .mi_bottom .tel_num .gou{
+    display: none;
+    float: left;
+    height: 17px;
+    width: 17px;
+    background: url(../img/gou.png) no-repeat center;
+    margin: 13px 0 0 20px;
+}
+#middle .mi_cent .mi_bottom .tel_num .bianred{
+    border: 1px solid #e60000;
+}
+#middle .mi_cent .mi_bottom .tel_num .bianhei{
+    color: #666; 
+    border: 1px solid #666666;
+}
+#middle .mi_cent .mi_bottom .tel_num .tooltip{
+    height: 30px;
+    line-height: 30px;
+    display:block;
+    position:absolute;
+    bottom:0;
+    left:212px;
+    display:none;
+}
+#middle .mi_cent .mi_bottom .tel_num .securityCode{
+    width: 80px;
+    height: 40px;
+    float:left;
+    background:url(../img/securityCode.jpg)no-repeat;
+    margin-left:10px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size:18px;
+}
+#middle .mi_cent .mi_bottom .tel_num .huan{
+    cursor:pointer;
+    float:left;
+    display:block;
+    margin-left:17px;
+    margin-top: 11px;
+    color:#1c51a1;
+    
+}
+#middle .mi_cent .mi_bottom .tel_num .huan:hover{
+    border-bottom:1px solid #1c51a1;
+}
+#middle .mi_cent .mi_bottom .tel_num .inputWrap .huoquyan{
+    color: #e60000;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    top: 12px;
+    width: 120px;
+    text-align: center;
+    border-left:1px solid #ccc;
+}
+#middle .mi_cent .mi_bottom #btn{
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    width: 380px;
+    text-align: center;
+    background: #e60000;
+    font-size: 16px;
+    color: #fff;
+    margin-left:212px;
+    margin-top:23px;
+}
+#middle .mi_cent .mi_bottom .xinlang{
+    margin: 25px 0 0 212px;
+    width: 380px;
+    overflow: hidden;
+    line-height: 24px;
+}
+#middle .mi_cent .mi_bottom .xinlang a{
+    
+    font-family: 'Microsoft YaHei';
+    color: #666a6b;
+    font-size: 14px;
+} 
+#middle .mi_cent .mi_bottom .logoho{
+    margin: 28px 0 0 155px;
+    overflow: hidden;
+}
+#middle .mi_cent .mi_bottom .logoho a{
+    float: left;
+    margin-right: 40px;
+    height: 30px;
+    padding-left: 40px;
+    line-height: 30px;
+    color: #666666;
+    font-size: 14px;
+    position: relative;
+}
+#middle .mi_cent .mi_bottom .logoho a .icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 30px;
+    background: url(../img/registloginSprit.png) no-repeat;
+}
+#middle .mi_cent .mi_bottom .logoho #xinlang .icon{
+    background-position:0 -20px;
+}
+#middle .mi_cent .mi_bottom .logoho #qq .icon{
+    background-position:-32px -20px;
+}
+#middle .mi_cent .mi_bottom .logoho #baidu .icon{
+    background-position:-102px -20px;
+}
+   
+
+    
+
+
+.loginRegistFoot { background:#f6f4f5; overflow:hidden; }
+.loginRegistFoot .footNav { padding-top:46px; }
+.loginRegistFoot .footNav ul { overflow:hidden; width:480px; margin:auto; }
+    .loginRegistFoot .footNav ul li {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        width: 120px;
+        text-align: center;
+        border-right:1px solid #ccc;
+    }
+.loginRegistFoot .footNav ul li a { color:#333333; }
+.loginRegistFoot .footNav ul li a:hover { color:#e60000; }
+.certifica .width820 { width:1000px; margin:20px auto 30px; }
+.credit_certifica { overflow:hidden; float:left; display:inline; margin-left:90px; }
+.credit_certifica a{
+    float:left;
+}
+.licence { float:left; color:#333; display:inline; margin-left:18px; line-height:20px; }
+
+.licence p a { margin-right:10px; color:#333;}
+.licence p a:hover{
+    color:#e70b1c;
+}
+.cusSer {
+position: fixed;
+right: 0;
+top: 150px;
+z-index: 999;
+}
+.cusSer .cusSerIn {
+    position: relative;
+    padding-left: 24px;
+}
+.cusSer .slide_min {
+    width: 24px;
+    font-family: SimHei;
+    font-size: 14px;
+    height: 88px;
+    cursor: pointer;
+    text-align: center;
+    background: #ff6c00 url(../img/kefu.png) no-repeat center 5px;
+    color: #fff;
+    padding-top: 24px;
+    line-height: 15px;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -44px;
+    text-decoration:none;
+}
+
+
+
+
+
+

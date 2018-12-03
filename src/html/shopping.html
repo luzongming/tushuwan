@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/shopping.css" />
+        <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+        <script type="text/javascript" src="../js/shopping.js"></script>
+    </head>
+    <body>
+       <div id="Navbar">
+            <div class="nav">
+                <div class="nav1 fl">
+                    <b>欢迎登陆中国图书网&nbsp;请</b>
+                    <a href="javascript:;" class="aa">登录</a>
+                    <span>丨</span>
+                    <a href='javascript:;'>注册</a>
+                </div>
+                <div class="nav2 fr">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">收藏夹</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">我的订单</a>
+                            </div>
+                        </li>
+                        <li class="nav21">
+                            <div class="icon">
+                                <a href="javascript:;">我的账户</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">优惠券</a>
+                            </div>
+                        </li>
+                        <li class="nav21">
+                            <div class="icon">
+                                 <a href="javascript:;">帮助中心</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        <div id="top">
+            <div class="container">
+                <h1>
+                    <img src="../img/toulogo.jpg" height="47" width="153" alt="" />
+                </h1>
+                <div class="top_ri fr">
+                    <span class="top1">正版好图书</span>
+                    <span class="top2">全场满69包邮</span>
+                    <span class="top3">特价书一折起</span>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="car">
+            <div class="container">
+                <div class="shoppingProcedure">
+                    <span class="current">我的购物车</span>
+                    <span>填写核对订单信息</span>
+                    <span>成功提交订单</span>
+                </div>
+                <div class="tabShoppCar">
+                    <div class="carTab">
+                        <ul class="cara">
+                            <li class="cur">
+                                <a href="javascript:;">
+                                    购物车(<span class="quantity">0</span>)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">淘宝商品购物车(0)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shoppingTip">
+                        <strong>重要信息</strong>
+                        <strong>丨</strong>
+                        <span>登录后可保存您购物车中的商品，并可看到您的星级会员价</span>
+                    </div>
+                </div>
+                <div class="tShoppCar">
+                    <div class="emptyIcon">
+                        
+                    </div>
+                    <div class="emptyText">
+                        <span>购物车空空的哦~，去看看心仪的商品吧~</span>
+                        <a href="../html/list.html">去购物</a>
+                    </div>
+                </div>
+                <div class="shoppingcar">
+                    <div class="shoppingTitle">
+                         <ul class="car_head">
+                            <li>
+                                <input type="checkbox" class="checkAll" /><span>全选</span>
+                            </li>
+                            <li>图书名称</li>
+                            <li>定价(元)</li>
+                            <li>一星会员(元)</li>
+                            <li>数量操作</li>
+                            <li>小计(元)</li>
+                            <li>操作</li>
+                        </ul>
+                        <div class="car_c">
+                            <!-- <ul class="single_goods">
+                                <li class="single_1">
+                                    <p><input type="checkbox" class="goods_checkbox" /></p>
+                                </li>
+                                <li class="single_2">
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <a href="javascript:;"><img src="../img/b11.jpg" alt="" /></a>
+                                        </dt>
+                                        <dd>
+                                            <a href="javascript:;">秋冬休闲裤男修身</a>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="single_3">
+                                    <p>￥<i>55</i></p>
+                                </li>
+                                <li class="single_4">
+                                    <p>￥569</p>
+                                </li>
+                                <li class="single_5">
+                                    <a href="javascript:;" class="num_less">-</a><input type="text" value="1" class="nums" /><a href="javascript:;" class="num_add">+</a>
+                                </li>
+                                <li class="single_6">
+                                    <i>￥0</i>
+                                </li>
+                                <li class="single_7">
+                                    <a href="javascript:;" class="delete_goods">删除</a>
+                                    <a href="javascript:;" class="in_favorites">移入收藏</a>
+                                </li>
+                            </ul> -->
+                        </div>
+                        <ul class="car_bttom">
+                            <li>
+                                <input type="checkbox" class="checkAll" /><span>全选</span>
+                            </li>
+                            <li class="balance_del">
+                                <p>删除选中商品</p>
+                            </li>
+                            <li>
+                                <p>清除失效商品</p>
+                            </li>
+                            <li class="balance_num">
+                                <p>已选商品<i>0</i>件</p>
+                            </li>
+                            <li class="balance_price">
+                                <p>商品总价<i>￥0</i> - 优惠<em>￥0</em></p>
+                            </li>
+                            <li class="balance_price">
+                                <p>合计(不含运费)：<i>￥0</i></p>
+                            </li>
+                            <li class="cartPayBill">
+                                <a href="javascript:;" class="active">去结算</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="footWrap">
+            <div class="footer_nav clearfix">
+                <div class="w1200">
+                    <div class="footerNavInner clearfix">
+                        <dl class="fl">
+                            <dt>新手上路</dt>
+                            <dd><a href="javascript:;" target="_blank">购物流程演示</a></dd>
+                            <dd><a href="javascript:;" target="_blank">注册用户 更改注册信息</a>
+                            </dd>
+                            <dd><a href="javascript:;" target="_blank">购物常见问题</a></dd>
+                            <dd><a href="javascript:;" target="_blank">关于特价书的常见问题</a></dd>
+                        </dl>
+                        <dl class="f2">
+                            <dt>购买问题</dt>
+                            <dd><a href="javascript:;" target="_blank">订单跟踪</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">付款方式</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">账户余额</a>&nbsp;&nbsp;<a href="javascript:;" target="_blank">申请提现</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">配送方式及费用、范围</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">集团购买</a></dd>
+                        </dl>
+                        <dl class="f3">
+
+                            <dt>售后服务</dt>
+
+                            <dd><a href="javascript:;" target="_blank">退换货流程</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">投诉与建议</a></dd>
+
+                            <dd><a href="javascript:;" onclick="NTKF.im_openInPageChat('kf_9067_1501484109259')" style="color:#e60000">在线客服</a></dd>
+
+                        </dl>
+
+                        <dl class="f4">
+
+                            <dt>特色服务</dt>
+
+                            <dd><a href="javascript:;" target="_blank">会员等级与积分</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">中图书馨卡</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">邮件订阅</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank" style="color:#e60000">邀请好友购买返5元</a></dd>
+
+                        </dl>
+
+                        <dl class="f5" style="width:134px; border-right:1px solid #dadada">
+
+                            <dt>其他信息</dt>
+
+                            <dd><a href="javascript:;" target="_blank">本站简介</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">联系我们</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">招聘英才</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">网站联盟</a></dd>
+
+                            <dd><a href="javascript:;" target="_blank">友情链接</a></dd>
+
+                        </dl>
+                        <dl class="weixin">
+
+                            <dt>中图网微博</dt>
+
+                            <dd>
+
+                                <img src="../img/weiboerweima.jpg" alt="中图网微博" />
+
+                            </dd>
+
+                        </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="certifica">
+                    <div class="width820 clearfix">
+                        <div class="credit_certifica">
+                            <a href="javascript:void(0)" onclick="javascript:window.location.href='https://search.szfw.org/cert/l/CX20150319007127007283'" target="_blank" title="中国图书网诚信认证" class="p1">
+                                <img src="../img/chengxin.jpg" alt="诚信认证">
+                            </a>
+                            <a href="javascript:;" onclick="javascript:window.location.href='http://www.ectrustprc.org.cn/seal/splash/1000006.htm'" target="_blank" title="中国图书网电子商务诚信单位认证" class="p2"><img src="../img/ectrust.jpg" alt="电子商务诚信单位认证"></a>
+
+                        </div>
+                        <div class="licence">
+                            <p><a target="_blank">经营许可证编号：京ICP备09013606号-3</a><a href="javascript:;" target="_blank">京信市监发[2002]122号</a><span>海淀公安分局备案编号：1101083394</span></p>
+                            <p><a href="javascript:;" target="_blank">营业执照</a><a href="/Images/jyxkz.jpg" target="_blank">出版物经营许可证</a></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

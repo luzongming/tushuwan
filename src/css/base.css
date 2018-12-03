@@ -1,0 +1,56 @@
+table { border-collapse:collapse; }
+a {text-decoration:none; }
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:1em;}/*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+b{font-weight:normal;}
+
+/*2.添加公共样式*/
+body {
+    font:12px "宋体";
+    color:#666;
+}
+body,h1,h2,h3,h4,p,a,input,img,ul,li,ol,dl,dt,dd{
+    padding:0;
+    margin:0;}
+ul,ol{
+    list-style:none;}
+img{
+    display:block;
+    border:0;}
+input{
+    /*去掉高亮*/
+    outline:none;}
+header,footer,section,main,nav{
+    display:block;}
+
+a{
+    text-decoration:none;
+    
+    }
+a:hover{
+    text-decoration:underline;
+    color:red;
+}
+i{font-style:normal;}
+*{box-sizing:border-box;}
+/*公共类*/
+.container {  /*内容、版心 提取 */
+    width: 1000px;
+    margin:0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.ac {
+    text-align:center;
+}
+.hide {
+    display:none;
+}
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+.clearfix::after{content:"";display:block;height:0;clear:both;overflow:hidden;visibility:hidden;}

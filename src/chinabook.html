@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/chinabook.css" />
+        <script type="text/javascript" src="js/chinabook.js"></script>
+    </head>
+    <body>
+        <div class="leftsmallBanner">
+            <div class="leftsmallInner">
+                <div class="bannerdt">
+                    <img src="img/leftxiao.jpg" height="160" width="78" />
+                </div>
+                <div class="bannerdd">
+                    <a href="javascript:;" target="_blank">
+                        <img src="img/left.jpg" height="370" width="800" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="topbox">
+            <div id="root">
+                <img src="img/topxiao.jpg" height="100" width="1200" alt="" class="baba" />
+            </div>
+            <div id="roof">
+            <img src="img/topda.jpg" height="400" width="1200" alt="" />
+            </div>
+        </div>
+        <div id="Navbar">
+            <div class="nav">
+                <div class="nav1 fl">
+                    <b>欢迎登陆中国图书网&nbsp;请</b>
+                    <a href="javascript:;" class="aa">登录</a>
+                    <span>丨</span>
+                    <a href='javascript:;' class="cc">注册</a>
+                </div>
+                <div class="nav2 fr">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">我的订单</a>
+                            </div>
+                        </li>
+                        <li class="nav21">
+                            <div class="icon">
+                                <a href="javascript:;">我的账户</a>
+                                <span class="tt"></span>
+                            </div>
+                            <div class="dropLayer" style="width: 162px;">
+                                <a href="javascript:;" >我的收藏夹</a>
+                                <a href="javascript:;" >账户余额</a>
+                                <a href="javascript:;" >我的优惠券</a>
+                                <a href="javascript:;">我的积分</a>
+                                <a href="javascript:;">收货地址</a>
+                                <a href="javascript:;" >我的书评</a>
+                                <a href="javascript:;" >我的消息</a>
+                                <a href="javascript:;" >积分换券</a>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <a href="javascript:;">帮助中心</a>
+                            </div>
+                        </li>
+                        <li class="nav21">
+                            <div class="icon">
+                                 <a href="javascript:;">手机地图</a>
+                                 <span class="tt"></span>
+                            </div>
+                            <div class="dropLayer" style="right: 0; left: initial; width: 164px; padding-bottom: 7px; padding-left: 5px;">
+                                <div class="erweimaWrap">
+                                    <div class="erweima">
+                                        <img src="img/weiboerweima.jpg" height="77" width="77" alt="中图网微博" />
+                                    </div>
+                                    <div class="text">
+                                        <b>扫一扫</b>
+                                        <span>
+                                            关注中图网<br />
+                                            官方微博
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="erweimaWrap">
+                                    <div class="erweima">
+                                        <img src="img/weixinerweima.jpg" height="77" width="77" alt="中图网微信" />
+                                    </div>
+                                    <div class="text">
+                                        <b>扫一扫</b>
+                                        <span>
+                                            关注中图网<br />
+                                            微信公众号
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="erweimaWrap">
+                                    <div class="erweima">
+                                        <img src="img/phoneerweima.jpg" height="77" width="77" alt="手机中图" />
+                                    </div>
+                                    <div class="text">
+                                        <b>手机中图</b>
+                                        <span>
+                                            进入中图网<br />
+                                            手机触屏版
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        <div id="searchBar">
+            <div class="search">
+                <div class="se_left fl">
+                    <img src="img/logoh1.png" height="60" width="248" alt="" />
+                </div>
+                <div class="se_cent fl">
+                    <div class="se_ctop">
+                        <div class="se_arch">
+                            <span class="se_archLe">
+                                <input type="text" id="keyword" placeholder="谢你不娶之恩：离开你真是太好了"/>
+                            </span>
+                            <a href="javascript:void(0)" class="searchBut">搜索</a>
+                            <div class="dropSearch">
+                                <dl>
+                                    <dt><span>搜索全部<b class="icon"></b></span></dt>
+                                    <dd>
+                                        <ul id="search_cates">
+                                            <li id="cate_0" class="on" style="background:#f5f5f5;color:#e60000;">搜索全部</li>
+                                            <li id="cate_1">书名</li>
+                                            <li id="cate_3">作者</li>
+                                            <li id="cate_4">出版社</li>
+                                            <li id="cate_2">ISBN</li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </div>
+                            
+                        </div>
+                        <div class="gaoji">
+                                <a href="javascript:;" style="color:#e60000;">高级搜索</a>
+                        </div>
+                        <div class="se_bott">
+                            <ul>
+                                <li>乌合之众:大众心理研究</li>
+                                <li>中国旧书局-民国独立书店兴衰史</li>
+                                <li>中国文库</li>
+                                <li>弗洛伊德论美</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="se_right fr">
+                   <div class="oo fl">
+                       
+                   </div>
+                   <div class="pp fl">
+                       手机端新版上线啦！
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div id="invagation">
+            <div class="inv">
+                <div class="inva">
+                    <div class="inva1">
+                        <h2 class="inva11">
+                            图书分类
+                            <span class="icon"></span>
+                        </h2>
+                        <div class="invaa">
+                            <div class="vaa">
+                                <ul>
+                                    <li class="vab">
+                                        <div class="gunzi"></div>
+                                        <div class="va">
+                                            <h3 class="va1">文学</h3>
+                                            <p class="va2">
+                                                <a href="html/list.html" class="last13_n">小说</a>
+                                                <a href="html/list.html" class="last13_n">青春文学</a>
+                                                <a href="html/list.html" class="last13_n">中国散文</a>
+                                                <a href="html/list.html" class="last13_n">外国散文</a>
+                                                <a href="html/list.html" class="last13_n">悬疑推理</a>
+                                                <a href="html/list.html" class="last13_n">文学理论</a>
+                                                <a href="html/list.html" class="last13_n">文集</a>
+                                                <a href="html/list.html" class="last13_n">世界名著</a>
+                                            </p>
+                                            <em>></em>
+                                        </div>
+                                        <div class="vb" style="top:-2px;display:none;">
+                                            <div class="vb1">
+                                                <ul class="vb2">
+                                                    <li class="vb21">
+                                                        <h3>小说</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国当代小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国古典小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国近现代小说</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑推理</a><span>丨</span>
+                                                            <a href="javascript:;">科幻小说</a><span>丨</span>
+                                                            <a href="javascript:;">世界名著</a><span>丨</span>
+                                                            <a href="javascript:;">四大名著</a><span>丨</span>
+                                                            <a href="javascript:;">作品集</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>青春文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">玄幻/科幻</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑/惊悚</a><span>丨</span>
+                                                            <a href="javascript:;">叛逆/成长</a><span>丨</span>
+                                                            <a href="javascript:;">搞笑/无厘头</a><span>丨</span>
+                                                            <a href="javascript:;">校园</a><span>丨</span>
+                                                            <a href="javascript:;">港台文学</a><span>丨</span>
+                                                            <a href="javascript:;">外国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国故事会</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="vab">
+                                        <div class="gunzi"></div>
+                                        <div class="va">
+                                            <h3 class="va1">社科</h3>
+                                            <p class="va2">
+                                                <a href="javascript:;" class="last13_n">小说</a>
+                                                <a href="javascript:;" class="last13_n">青春文学</a>
+                                                <a href="javascript:;" class="last13_n">中国散文</a>
+                                                <a href="javascript:;" class="last13_n">外国散文</a>
+                                                <a href="javascript:;" class="last13_n">悬疑推理</a>
+                                                <a href="javascript:;" class="last13_n">文学理论</a>
+                                                <a href="javascript:;" class="last13_n">文集</a>
+                                                <a href="javascript:;" class="last13_n">世界名著</a>
+                                            </p>
+                                            <em>></em>
+                                        </div>
+                                        <div class="vb" style="top:-2px;display:none;">
+                                            <div class="vb1">
+                                                <ul class="vb2">
+                                                    <li class="vb21">
+                                                        <h3>小说</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国当代小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国古典小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国近现代小说</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑推理</a><span>丨</span>
+                                                            <a href="javascript:;">科幻小说</a><span>丨</span>
+                                                            <a href="javascript:;">世界名著</a><span>丨</span>
+                                                            <a href="javascript:;">四大名著</a><span>丨</span>
+                                                            <a href="javascript:;">作品集</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>青春文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">玄幻/科幻</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑/惊悚</a><span>丨</span>
+                                                            <a href="javascript:;">叛逆/成长</a><span>丨</span>
+                                                            <a href="javascript:;">搞笑/无厘头</a><span>丨</span>
+                                                            <a href="javascript:;">校园</a><span>丨</span>
+                                                            <a href="javascript:;">港台文学</a><span>丨</span>
+                                                            <a href="javascript:;">外国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国故事会</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>中国书库精华</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="vab">
+                                        <div class="gunzi"></div>
+                                        <div class="va">
+                                            <h3 class="va1">少儿</h3>
+                                            <p class="va2">
+                                                <a href="javascript:;" class="last13_n">小说</a>
+                                                <a href="javascript:;" class="last13_n">青春文学</a>
+                                                <a href="javascript:;" class="last13_n">中国散文</a>
+                                                <a href="javascript:;" class="last13_n">外国散文</a>
+                                                <a href="javascript:;" class="last13_n">悬疑推理</a>
+                                                <a href="javascript:;" class="last13_n">文学理论</a>
+                                                <a href="javascript:;" class="last13_n">文集</a>
+                                                <a href="javascript:;" class="last13_n">世界名著</a>
+                                            </p>
+                                            <em>></em>
+                                        </div>
+                                        <div class="vb" style="top:-2px;display:none;">
+                                            <div class="vb1">
+                                                <ul class="vb2">
+                                                    <li class="vb21">
+                                                        <h3>小说</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国当代小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国古典小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国近现代小说</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑推理</a><span>丨</span>
+                                                            <a href="javascript:;">科幻小说</a><span>丨</span>
+                                                            <a href="javascript:;">世界名著</a><span>丨</span>
+                                                            <a href="javascript:;">四大名著</a><span>丨</span>
+                                                            <a href="javascript:;">作品集</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>青春文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">玄幻/科幻</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑/惊悚</a><span>丨</span>
+                                                            <a href="javascript:;">叛逆/成长</a><span>丨</span>
+                                                            <a href="javascript:;">搞笑/无厘头</a><span>丨</span>
+                                                            <a href="javascript:;">校园</a><span>丨</span>
+                                                            <a href="javascript:;">港台文学</a><span>丨</span>
+                                                            <a href="javascript:;">外国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国故事会</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="vab">
+                                        <div class="gunzi"></div>
+                                        <div class="va">
+                                            <h3 class="va1">艺术</h3>
+                                            <p class="va2">
+                                                <a href="javascript:;" class="last13_n">小说</a>
+                                                <a href="javascript:;" class="last13_n">青春文学</a>
+                                                <a href="javascript:;" class="last13_n">中国散文</a>
+                                                <a href="javascript:;" class="last13_n">外国散文</a>
+                                                
+                                            </p>
+                                            <em>></em>
+                                        </div>
+                                        <div class="vb" style="top:-2px;display:none;">
+                                            <div class="vb1">
+                                                <ul class="vb2">
+                                                    <li class="vb21">
+                                                        <h3>小说</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国当代小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国古典小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国近现代小说</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑推理</a><span>丨</span>
+                                                            <a href="javascript:;">科幻小说</a><span>丨</span>
+                                                            <a href="javascript:;">世界名著</a><span>丨</span>
+                                                            <a href="javascript:;">四大名著</a><span>丨</span>
+                                                            <a href="javascript:;">作品集</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>青春文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">玄幻/科幻</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑/惊悚</a><span>丨</span>
+                                                            <a href="javascript:;">叛逆/成长</a><span>丨</span>
+                                                            <a href="javascript:;">搞笑/无厘头</a><span>丨</span>
+                                                            <a href="javascript:;">校园</a><span>丨</span>
+                                                            <a href="javascript:;">港台文学</a><span>丨</span>
+                                                            <a href="javascript:;">外国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国故事会</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="vab">
+                                        <div class="gunzi"></div>
+                                        <div class="va">
+                                            <h3 class="va1">生活</h3>
+                                            <p class="va2">
+                                                <a href="javascript:;" class="last13_n">小说</a>
+                                                <a href="javascript:;" class="last13_n">青春文学</a>
+                                                <a href="javascript:;" class="last13_n">中国散文</a>
+                                                <a href="javascript:;" class="last13_n">外国散文</a>
+                                                <a href="javascript:;" class="last13_n">悬疑推理</a>
+                                               
+                                            </p>
+                                            <em>></em>
+                                        </div>
+                                        <div class="vb" style="top:-2px;display:none;">
+                                            <div class="vb1">
+                                                <ul class="vb2">
+                                                    <li class="vb21">
+                                                        <h3>小说</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国当代小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国古典小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国近现代小说</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑推理</a><span>丨</span>
+                                                            <a href="javascript:;">科幻小说</a><span>丨</span>
+                                                            <a href="javascript:;">世界名著</a><span>丨</span>
+                                                            <a href="javascript:;">四大名著</a><span>丨</span>
+                                                            <a href="javascript:;">作品集</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>青春文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">玄幻/科幻</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑/惊悚</a><span>丨</span>
+                                                            <a href="javascript:;">叛逆/成长</a><span>丨</span>
+                                                            <a href="javascript:;">搞笑/无厘头</a><span>丨</span>
+                                                            <a href="javascript:;">校园</a><span>丨</span>
+                                                            <a href="javascript:;">港台文学</a><span>丨</span>
+                                                            <a href="javascript:;">外国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国故事会</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="vab">
+                                        <div class="gunzi"></div>
+                                        <div class="va">
+                                            <h3 class="va1">文教</h3>
+                                            <p class="va2">
+                                                <a href="javascript:;" class="last13_n">小说</a>
+                                                <a href="javascript:;" class="last13_n">青春文学</a>
+                                                <a href="javascript:;" class="last13_n">中国散文</a>
+                                                <a href="javascript:;" class="last13_n">外国散文</a>
+                                                <a href="javascript:;" class="last13_n">悬疑推理</a>
+                                                <a href="javascript:;" class="last13_n">文学理论</a>
+                                                <a href="javascript:;" class="last13_n">文集</a>
+                                                <a href="javascript:;" class="last13_n">世界名著</a>
+                                            </p>
+                                            <em>></em>
+                                        </div>
+                                        <div class="vb" style="top:-2px;display:none;">
+                                            <div class="vb1">
+                                                <ul class="vb2">
+                                                    <li class="vb21">
+                                                        <h3>小说</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国当代小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国古典小说</a><span>丨</span>
+                                                            <a href="javascript:;">中国近现代小说</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑推理</a><span>丨</span>
+                                                            <a href="javascript:;">科幻小说</a><span>丨</span>
+                                                            <a href="javascript:;">世界名著</a><span>丨</span>
+                                                            <a href="javascript:;">四大名著</a><span>丨</span>
+                                                            <a href="javascript:;">作品集</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">外国诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">中国古诗词</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代诗歌</a><span>丨</span>
+                                                            <a href="javascript:;">外国散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国现当代散文</a><span>丨</span>
+                                                            <a href="javascript:;">中国古代散文</a><span>丨</span>
+                                                            <a href="javascript:;">文学理论</a><span>丨</span>
+                                                            <a href="javascript:;">文集</a><span>丨</span>
+                                                            <a href="javascript:;">戏剧</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                    <li class="vb21">
+                                                        <h3>青春文学</h3>
+                                                        <p>
+                                                            <a href="javascript:;">玄幻/科幻</a><span>丨</span>
+                                                            <a href="javascript:;">悬疑/惊悚</a><span>丨</span>
+                                                            <a href="javascript:;">叛逆/成长</a><span>丨</span>
+                                                            <a href="javascript:;">搞笑/无厘头</a><span>丨</span>
+                                                            <a href="javascript:;">校园</a><span>丨</span>
+                                                            <a href="javascript:;">港台文学</a><span>丨</span>
+                                                            <a href="javascript:;">外国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国青春文学</a><span>丨</span>
+                                                            <a href="javascript:;">中国故事会</a><span>丨</span>
+                                                            <a href="javascript:;">更多</a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="invab">
+                            <img src="img/img1.jpg" height="88" width="200" alt="" />
+                            <img src="img/img2.jpg" height="88" width="200" alt="" />
+                        </div>
+                    </div>
+                    <div class="inva2">
+                        <span style="font-weight: bold;color:#e60000;">首页</span>
+                        <span>淘书团</span>
+                        <span>畅销榜</span>
+                        <span>新上架</span>
+                        <span>9块9包邮</span>
+                        <span>出版社浏览</span>
+                        <span>闲情雅趣</span>
+                        <span>批发</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slideshow">
+            <div class="slide">
+                <div class="sli">
+                    <!--图片列表-->
+                    <div id="imglist">
+                        <ul>
+                            <li><img src="img/lunbotu1.jpg" height="360" width="990" alt="" /></li>
+                            <li><img src="img/lunbotu2.jpg" height="360" width="990" alt="" /></li>
+                            <li><img src="img/lunbotu3.jpg" alt="" /></li>
+                            <li><img src="img/lunbotu4.jpg" alt="" /></li>
+                            <li><img src="img/lunbotu5.jpg" alt="" /></li>
+                            <li><img src="img/lunbotu6.jpg" alt="" /></li>
+                        </ul>
+                    </div>
+                    <!--焦点图-->
+                    <p id="light">
+                        <span class="active">30万种5折封顶|每满10减2</span>
+                        <span>中信专场|每满99减20</span>
+                        <span>书友四级考试</span>
+                        <span>西方哲学与思想家</span>
+                        <span>拜经日记</span>
+                        <span>杨度</span>
+                    </p>
+                    <!--上下按钮-->
+                    <div id="posibtn">
+                        <p id="prev">&lt;</p>
+                        <p id="next">&gt;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="cot">
+                <div class="switcher">
+                    <div class="swi_le fl">
+                        <div class="swiTop">
+                            <span class="swi1 tive">新品特惠</span>
+                            <span class="swi1">本周精选</span>
+                            <span class="swi1">新书速递</span>
+                            <span class="swi1">读者热评</span> 
+                        </div>
+                            <div class="swiBot" style="display:block;">
+                                <div class="weiB1">
+                                    <div class="weiB11">
+                                        <div class="weiB111 fl">
+                                            <img src="img/s1.jpg" class="im1" />
+                                            <img src="img/dazhe.png" height="42" width="42" alt="" class="im2" />
+                                        </div>
+                                        <div class="weiB112 fl">
+                                            <h2 class="b1">安徒生的童话人生</h2>
+                                            <div class="b2">
+                                                <span class="b21">￥18.2</span>
+                                                <span class="b23">￥48.0</span>
+                                            </div>
+                                            <p class="tent">
+                                                虽然安徒生的童话早为众人熟悉，但对这位大师的一生，他的诗歌、绘画以及剪纸作品，知道的人恐怕并不多。本书集安徒生自传，甚至包括关于他的童年及如何踏上童话创作里程、他的爱情经历等等。安徒生诗歌、私房画、剪纸，安徒生童话艺术解读于一体，图文并茂，让读者在品味大师童话般一生的同时，也能重温安徒生为我们描绘的那些温馨美好的梦幻世界。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weiB2">
+                                    <ul>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s11.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s12.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s13.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s14.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiBot">
+                                <div class="weiB1">
+                                    <div class="weiB11">
+                                        <div class="weiB111 fl">
+                                            <img src="img/s2.jpg" class="im1" />
+                                            <img src="img/dazhe.png" height="42" width="42" alt="" class="im2" />
+                                        </div>
+                                        <div class="weiB112 fl">
+                                            <h2 class="b1"></h2>
+                                            <div class="b2">
+                                                <span class="b21">￥11.2</span>
+                                                <span class="b23">￥23.0</span>
+                                            </div>
+                                            <p class="tent">
+                                               亦男亦女，非男非女，生命于TA而言是个谜团。“他”还是“她”？进退两难，何去何从？在粗犷野性的男性狩猎文化的影响下，韦恩一直努力按照父亲的意愿去做一个男子汉；但与此同时，隐藏在他身体里的女性因子也在悄然萌发。直到在世事无常摇摇欲坠的瞬间，亲情与友情的温暖关照让韦恩勇敢地挣脱了“他还是她”的羁绊，迎来了破茧成蝶的那一刻……
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weiB2">
+                                    <ul>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s21.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s22.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s23.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s24.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiBot">
+                                <div class="weiB1">
+                                    <div class="weiB11">
+                                        <div class="weiB111 fl">
+                                            <img src="img/s3.jpg" class="im1" />
+                                            <img src="img/dazhe.png" height="42" width="42" alt="" class="im2" />
+                                        </div>
+                                        <div class="weiB112 fl">
+                                            <h2 class="b1">俺爹俺娘</h2>
+                                            <div class="b2">
+                                                <span class="b21">￥18.2</span>
+                                                <span class="b23">￥48.0</span>
+                                            </div>
+                                            <p class="tent">
+                                                暌违十八年后，全新修订中文版暨出版四十周年纪念之际，乔治·佩雷克这部诞生于四十年前的法国却精准诠释当代世界的预言之作：整部小说按照严密的数学结构，有条不紊地描绘1468个人物包罗万象的生活。写出这个时代允许写出的一切，覆盖这个时代所有的文学；与作者同列“法兰西文学三星”的是2008年和2014年诺贝尔文学奖得主的克莱齐奥和莫迪亚诺。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weiB2">
+                                    <ul>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s31.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s32.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s33.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s34.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiBot">
+                                <div class="weiB1">
+                                    <div class="weiB11">
+                                        <div class="weiB111 fl">
+                                            <img src="img/s4.jpg" class="im1" />
+                                            <img src="img/dazhe.png" height="42" width="42" alt="" class="im2" />
+                                        </div>
+                                        <div class="weiB112 fl">
+                                            <h2 class="b1">洞灵小志 续志 补志-民国的聊斋 最后的搜神</h2>
+                                            <div class="b2">
+                                                <span class="b21">￥18.2</span>
+                                                <span class="b23">￥48.0</span>
+                                            </div>
+                                            <p class="tent">
+                                                民国京津文坛政坛活跃人物力作，《扪虱谈鬼录》作者栾保群点校，讲述多为20世纪二三十年代民间以及士大夫之间流传的各类奇闻异事。谈鬼说狐居多，间及公案游侠、海内异闻，诸如赶尸、移腐、接火、查花等湘粤奇俗，均首见于此书。故事多为作者亲闻亲历，异事多涉及近代名公名士，凶宅具体到北京的某一胡同、某一豪宅、某一饭庄，尤其令人感到近切。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weiB2">
+                                    <ul>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s41.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                        <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s42.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s43.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                         <li class="weiba">
+                                            <div class="baTop">
+                                                <img src="img/s44.jpg" class="im1" />
+                                                <img src="img/dazhe7.png" height="42" width="42" alt="" class="im2" />
+                                            </div>
+                                            <div class="name">
+                                                <a href="javascript:;">寻一个不受人惑的人:谈时势与社会/胡适悲悯的赤子情</a>
+                                            </div>
+                                            <div class="pic">
+                                                <span class="pic1">￥14.8</span>
+                                                <span class="pic2">￥32.8</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                           
+                            </div>
+                    <div class="swi_ri fr">
+                        <div class="ris">
+                            <h2 class="risa">图书畅销榜</h2>
+                            <a href="javascript:;" class="risb">更多>></a>
+                        </div>
+                        <div class="hotNav">
+                            <div class="navDot">
+                                <img src="img/nan.png" height="465" width="230" alt="" />
+                                <!-- <ul>
+                                    <li><a href="javascript:;">总榜</a></li>
+                                    <li><a href="javascript:;">文学</a></li>
+                                    <li><a href="javascript:;">社科</a></li>
+                                    <li><a href="javascript:;">少儿</a></li>
+                                    <li><a href="javascript:;">艺术</a></li>
+                                    <li><a href="javascript:;">文教</a></li>
+                                    <li><a href="javascript:;">生活</a></li>
+                                </ul> -->
+                            </div>
+                            <span class="arrow leftArrow" style="display: inline;"></span>
+                            <span class></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="advertisement">
+            <div class="ad">
+                <a href="javascript:;"><img src="img/c1.jpg" height="120" width="393" alt="" /></a>
+                <a href="javascript:;"><img src="img/c2.jpg" height="120" width="393" alt="" /></a>
+                <a href="javascript:;"><img src="img/c3.jpg" height="120" width="393" alt="" /></a>
+            </div>
+        </div>
+        <div id="qiehuan">
+            <div class="contain">
+                <div class="qhTop">
+                    <div class="qT1 fl">
+                        <a href="javascript:;">淘书团热销 ></a>
+                        <span class=''>全场包邮，低至一折，每天上线</span>
+                    </div>
+                    <div class="qT2 fr">
+                        <a href="javascript:;">查看更多商品>></a>
+                    </div>
+                </div>
+                <div class="qhBot">
+                    <div class="qiea gg" >
+                        <ul>
+                            <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/q1.jpg"  />
+                                </div>
+                                <div class="qie12">
+                                    <p>首部考证事物起源的工具型类书！大字影印本《壹是纪始》精装全一卷，2003年1版1印，总达1128页，以北京图书馆所藏清光绪甬北寄庐刻本为底本影印，内容包括天文、地理、宫室、职官、器具、衣食、舟车、律法、姓氏、科举、印信图章、文史、货币、兵器、术数、嬉戏、禽兽、俗语等22类，计2000余细目。内容简明扼要、通俗易懂，新加细目索引，检索更方便，字迹清晰，更具可读性，定价80元，现团购价29元</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>110</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                             <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/q2.jpg" />
+                                </div>
+                                <div class="qie12">
+                                    <p>每周三超低价！《民国书影》全一册，介绍了近200部1940年至1949年9月出版的图书，高清全彩呈现图书封面，并标出成书尺寸、页码、出版时间、发行者等，更配以简洁明了的文字，介绍图书内容，部分还配有作者简介。本书所收图书分为散文杂文、小说、诗歌戏剧、论著等四个类别，这一时期，中国社会动荡不安、战乱频仍，这些图书深刻地反映了时代风貌，颇具阅读与收藏价值。定价58元，现团购价19.9元，全国包快递！</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>26</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                             <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/q3.jpg" />
+                                </div>
+                                <div class="qie12">
+                                    <p>史书辞典《后汉书辞典》《三国志辞典》两部，大16开精装，著名历史学家张舜徽主编，以中华书局标点本为底本，凡原著中出现的难懂语词、历史典故、人名、地名、职官、典籍、名物制度及天文历算等，均予收录。其中《三国志辞典》收词范围除《三国志》本文外，亦包括裴松之注文，共收词目一万八千多条。这套书适合文史爱好者、工作者阅读研究《后汉书》《三国志》时查阅使用，也是研习汉代、三国时期历史的重要工具书。1994年</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>69</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                             <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/q4.jpg" height="190" width="285" alt="" />
+                                </div>
+                                <div class="qie12">
+                                    <p>史书辞典《晋书辞典》《两唐书辞典》两部任选：大16开精装，分别由著名历史学家刘乃和、陕师大教授赵文润与赵吉惠主编，以中华书局标点本《晋书》《旧唐书》《新唐书》为底本，凡原著中出现的人名、地名、职官、民族、著作、制度、名物、天文历算、医药动物、植物矿产、成语典故、历史事件等名词术语以及疑难语词，均予收录。《晋书辞典》收词二万四千余条，941页，定价255元，现团购价79元；《两唐书辞典》收词四万二千</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>29</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="qieb gg" >
+                        <ul>
+                            <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/h1.jpg"  />
+                                </div>
+                                <div class="qie12">
+                                    <p>首部考证事物起源的工具型类书！大字影印本《壹是纪始》精装全一卷，2003年1版1印，总达1128页，以北京图书馆所藏清光绪甬北寄庐刻本为底本影印，内容包括天文、地理、宫室、职官、器具、衣食、舟车、律法、姓氏、科举、印信图章、文史、货币、兵器、术数、嬉戏、禽兽、俗语等22类，计2000余细目。内容简明扼要、通俗易懂，新加细目索引，检索更方便，字迹清晰，更具可读性，定价80元，现团购价29元</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>29</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                             <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/h2.jpg" />
+                                </div>
+                                <div class="qie12">
+                                    <p>每周三超低价！《民国书影》全一册，介绍了近200部1940年至1949年9月出版的图书，高清全彩呈现图书封面，并标出成书尺寸、页码、出版时间、发行者等，更配以简洁明了的文字，介绍图书内容，部分还配有作者简介。本书所收图书分为散文杂文、小说、诗歌戏剧、论著等四个类别，这一时期，中国社会动荡不安、战乱频仍，这些图书深刻地反映了时代风貌，颇具阅读与收藏价值。定价58元，现团购价19.9元，全国包快递！</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>29</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                             <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/h3.jpg" />
+                                </div>
+                                <div class="qie12">
+                                    <p>史书辞典《后汉书辞典》《三国志辞典》两部，大16开精装，著名历史学家张舜徽主编，以中华书局标点本为底本，凡原著中出现的难懂语词、历史典故、人名、地名、职官、典籍、名物制度及天文历算等，均予收录。其中《三国志辞典》收词范围除《三国志》本文外，亦包括裴松之注文，共收词目一万八千多条。这套书适合文史爱好者、工作者阅读研究《后汉书》《三国志》时查阅使用，也是研习汉代、三国时期历史的重要工具书。1994年</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>29</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                             <li class="qie1">
+                                <div class="qie11">
+                                    <img src="img/h4.jpg" height="190" width="285" alt="" />
+                                </div>
+                                <div class="qie12">
+                                    <p>史书辞典《晋书辞典》《两唐书辞典》两部任选：大16开精装，分别由著名历史学家刘乃和、陕师大教授赵文润与赵吉惠主编，以中华书局标点本《晋书》《旧唐书》《新唐书》为底本，凡原著中出现的人名、地名、职官、民族、著作、制度、名物、天文历算、医药动物、植物矿产、成语典故、历史事件等名词术语以及疑难语词，均予收录。《晋书辞典》收词二万四千余条，941页，定价255元，现团购价79元；《两唐书辞典》收词四万二千</p>
+                                </div>
+                                <div class="qie13">
+                                    <span class="q31">团购价:￥<b>29</b></span>
+                                    <del>￥80.0</del>
+                                    <span class="q32">3.6折</span>
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <p class="qh qleft"><</p>
+                    <p class="qh qright">></p>
+                </div>
+                
+            </div>
+        </div>
+        <div id="shake">
+            <div class="sha">
+                <div class="baoyou">
+                    <div class="by fl">
+                        <a href="javascript:;">包邮区 ></a>
+                        <span>任选一本 整单包邮</span>
+                    </div>
+                    <div class="bao fr">
+                        <a href="javascript:;">查看更多商品>></a>
+                    </div>
+                </div>
+                <div class="baocon">
+                    <ul>
+                        <li class="bcon">
+                            <div class="bc">
+                                <p>端午诗词-中国节庆文化丛书</p>
+                                <del>￥12.0</del>
+                                <span class="pirce">
+                                    <i>￥</i>9.9
+                                </span>
+                                <div class="doutu">
+                                    <img src="img/yd1.jpg" />
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="bcon">
+                            <div class="bc">
+                                <p>端午诗词-中国节庆文化丛书</p>
+                                <del>￥12.0</del>
+                                <span class="pirce">
+                                    <i>￥</i>9.9
+                                </span>
+                                <div class="doutu">
+                                    <img src="img/yd2.jpg" />
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="bcon">
+                            <div class="bc">
+                                <p>端午诗词-中国节庆文化丛书</p>
+                                <del>￥12.0</del>
+                                <span class="pirce">
+                                    <i>￥</i>9.9
+                                </span>
+                                <div class="doutu">
+                                    <img src="img/yd3.jpg" />
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="bcon">
+                            <div class="bc">
+                                <p>端午诗词-中国节庆文化丛书</p>
+                                <del>￥12.0</del>
+                                <span class="pirce">
+                                    <i>￥</i>9.9
+                                </span>
+                                <div class="doutu">
+                                    <img src="img/yd4.jpg" />
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="bcon">
+                            <div class="bc">
+                                <p>端午诗词-中国节庆文化丛书</p>
+                                <del>￥12.0</del>
+                                <span class="pirce">
+                                    <i>￥</i>9.9
+                                </span>
+                                <div class="doutu">
+                                    <img src="img/yd5.jpg" />
+                                </div>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="tab">
+            <div class="tcontain">
+                <div class="tTop">
+                    <h2 class="wenxue">
+                        文学图书 >
+                    </h2>
+                    <ul class="tabAn">
+                        <li class="taban cus"><a href="javascript:;">小说</a></li>
+                        <li class="taban"><a href="javascript:;">诗歌散文</a></li>
+                        <li class="taban"><a href="javascript:;">悬疑推理</a></li>
+                        <li class="taban"><a href="javascript:;">青春文学</a></li>
+                    </ul>
+                </div>
+                <div class="tabBot">
+                    <div class="tabNew">
+                        <div class="tnew">
+                            <img src="img/maodun.jpg" height="335" width="210" alt="" />
+                        </div>
+                        <div class="tabhv">
+                            <h3>青春文学排行榜</h3>
+                            <ul>
+                                <li>><a href="javascript:;">你若向阳,心不忧伤</a></li>
+                                <li>><a href="javascript:;">长篇小说:饕餮记3</a></li>
+                                <li>><a href="javascript:;">催枪问谁-剑侠情缘叁-壹</a></li>
+                                <li>><a href="javascript:;">沉颜传奇(全两册)</a></li>
+                                <li>><a href="javascript:;">云养汉</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="tabqh">
+                        <ul class="output">
+                           <!--  <li class="taB">
+                                <div class="taBa">
+                                    <img src="img/tab11.jpg" class="paTh" />
+                                </div>
+                                <h3>
+                                    <a href="javascript:;" class="book">鲁迅诗编年笺证</a>              
+                                </h3>
+                                <p class="naMe">鲁迅</p>
+                                <div class="jig">
+                                    <span class="piRce">￥25.8</span>
+                                    <span class="moNey">￥30.8</span>
+                                </div>
+                            </li> -->
+                        </ul>
+                        <div class="kindmore">
+                            <a href="javascript:;">查看更多</a>
+                        </div>
+                    </div>
+                    <div class="tabHover">
+                        <div class="hovTop">
+                            <ul class="hoOut" >
+                                <li class="reveal">
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov1.jpg" height="90" width="228" alt="" />
+                                    </a>
+                                    <a href="javascript:;" class="text">>&nbsp;闲雅小品丛书</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov2.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="text">>&nbsp;张炜文集</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov3.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="text">>&nbsp;世界十大中短篇小说家</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov4.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="text">>&nbsp;渡边淳一作品集</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov5.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="text">>&nbsp;祝勇编-外国散文精品文库</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov6.jpg" alt="" />
+                                    </a>
+                                    <a href="javascript:;" class="text">>&nbsp;上海辞书出版社 文学鉴赏辞典</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov7.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="text">>&nbsp;名诗珍藏系列</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="img">
+                                        <img src="img/hov8.jpg" height="90" width="228" alt="" />
+                                    </a>
+                                    <a href="javascript:;" class="text">>&nbsp;古典推理文库</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hovBot">
+                            <a href="javascript:;">
+                                <img src="img/tianxia.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tacontain">
+                <div class="taba">
+                    <h2 class="tabaa">
+                        社科图书 >
+                    </h2>
+                    <ul class="tabab">
+                        <li class="tabac ccus"><a href="javascript:;">小说</a></li>
+                        <li class="tabac"><a href="javascript:;">诗歌散文</a></li>
+                        <li class="tabac"><a href="javascript:;">悬疑推理</a></li>
+                        <li class="tabac"><a href="javascript:;">青春文学</a></li>
+                    </ul>
+                </div>
+                <div class="tabb">
+                    <div class="newB">
+                        <div class="newBa">
+                            <img src="img/guoxue.jpg" height="335" width="210" alt="" />
+                        </div>
+                        <div class="newBb">
+                            <h3>历史畅销榜</h3>
+                            <ul>
+                                <li>><a href="javascript:;">你若向阳,心不忧伤</a></li>
+                                <li>><a href="javascript:;">长篇小说:饕餮记3</a></li>
+                                <li>><a href="javascript:;">催枪问谁-剑侠情缘叁-壹</a></li>
+                                <li>><a href="javascript:;">沉颜传奇(全两册)</a></li>
+                                <li>><a href="javascript:;">云养汉</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Tab">
+                        <ul class="outp">
+                            <!-- <li class="tAb">
+                                <div class="tAba">
+                                    <img src="img/tab11.jpg" class="paTh" />
+                                </div>
+                                <h3>
+                                    <a href="javascript:;" class="bok">鲁迅诗编年笺证</a>              
+                                </h3>
+                                <p class="tName">鲁迅</p>
+                                <div class="tjia">
+                                    <span class="piC">￥25.8</span>
+                                    <span class="moN">￥30.8</span>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="tHov">
+                        <div class="hovT">
+                            <ul class="hoO" >
+                                <li class="xian">
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v1.jpg" height="90" width="228" alt="" />
+                                    </a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列1</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v2.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列2</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v3.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列3</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v4.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列4</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v5.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列5</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v6.jpg" alt="" />
+                                    </a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列6</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v7.jpg" alt="" /></a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列7</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="Img">
+                                        <img src="img/v8.jpg" height="90" width="228" alt="" />
+                                    </a>
+                                    <a href="javascript:;" class="Txt">>&nbsp;HTML5夺命系列8</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hvBot">
+                            <a href="javascript:;">
+                                <img src="img/daguoxue.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mm">
+            <div class="mma">
+                <div class="ma">
+                    <div class="mTop">
+                        <h2><a href="javascript:;">出版社专区 ></a></h2>
+                    </div>
+                    <div class="mBot">
+                        <div class="mBleft">
+                            <div class="mL1">
+                                <div class="mLt">
+                                    <div class="mlt">
+                                        <ul class="cLi">
+                                            <li class="cur">
+                                                <a href="javascript:;">人民文学出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">人民文学出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">现代出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">现代出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">中华书局</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">中华书局</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">海豚出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">海豚出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">海豚出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">海豚出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">海豚出版社</a>
+                                                <span>></span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">
+                                                小海疼</a>
+                                                <span>></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mLb">
+                                    <span class="downArrow next"></span>
+                                    <span class="upArrow prev prevStop"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mBcent" style="display:block;">
+                            <div class="mBt">
+                                <h3>
+                                    <a href="javascript:;">人民文学出版社</a>
+                                </h3>
+                                <div class="mBt1">
+                                    <p>人民文学出版社1951年3月成立于北京，系国家级专业文学出版机构，现为中国出版集团公司成员单位。该社着力组织出版社当代文学作品，中国当代作家的代表作大多由该社出版，出版物以高质量赢得广泛称赞，已形成了高品位，高质量的“人文版”图书系列，注重图书出版的系统性和系列化，力求较全面的反映中国及世界各国的优秀文学成果，被称赞“代表中国文学出版社的最高水平”。</p>
+                                </div>
+                            </div>
+                            <ul class="mBB">
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m1.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m2.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m3.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m4.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mBcent">
+                            <div class="mBt">
+                                <h3>
+                                    <a href="javascript:;">人民文学出版社</a>
+                                </h3>
+                                <div class="mBt1">
+                                    <p>人民文学出版社1951年3月成立于北京，系国家级专业文学出版机构，现为中国出版集团公司成员单位。该社着力组织出版社当代文学作品，中国当代作家的代表作大多由该社出版，出版物以高质量赢得广泛称赞，已形成了高品位，高质量的“人文版”图书系列，注重图书出版的系统性和系列化，力求较全面的反映中国及世界各国的优秀文学成果，被称赞“代表中国文学出版社的最高水平”。</p>
+                                </div>
+                            </div>
+                            <ul class="mBB">
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m1.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m2.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m3.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mBB1">
+                                        <img src="img/m4.jpg" />
+                                    </div>
+                                    <h3 class="books">
+                                        <a href="javascript:;">我未来次子关于我的回忆</a>
+                                    </h3>
+                                    <p class="Aut">骆以军 著</p>
+                                    <div class="qian">
+                                        <span class="qian1">￥15.8</span>
+                                        <span class="qian2">￥36.0</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                 <div class="mRi">
+                            <div class="ri">
+                                <h2>人气作者</h2>
+                            </div>
+                            <div class="rbot">
+                                <div class="rbTop">
+                                    <div class="rbT1">
+                                        <h3>
+                                            <a href="javascript:;">吕思勉</a>
+                                        </h3>
+                                        <p class="lishi">中国近代历史学家、国学大师，著名史学家严耕望先生称其与陈垣、陈寅恪、钱穆为“前辈史学四大家”。</p>
+                                        <div class="rbtt">
+                                            <img src="img/zhoguo.jpg" />
+                                        </div>
+                                        <p class="bona">
+                                            <a href="javascript:;">中国历史-青年通读本</a>
+                                        </p>
+                                        <div class="mony">
+                                            <span class="mony1">¥16.3</span>
+                                            <span class="mony2">¥38.0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rot">
+                                    <a href="javascript:;">残雪</a><span>丨</span>
+                                    <a href="javascript:;">阮义忠</a><span>丨</span>
+                                    <a href="javascript:;">沈石溪</a>
+                                    <a href="javascript:;">残雪</a><span>丨</span>
+                                    <a href="javascript:;">阮义忠</a><span>丨</span>
+                                    <a href="javascript:;">沈石溪</a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class="footWrap">
+            <div class="footer_nav clearfix">
+                <div class="w1200">
+                    <div class="footerNavInner clearfix">
+                        <dl class="fl">
+                            <dt>新手上路</dt>
+                            <dd><a href="/buydemo/default.asp" target="_blank">购物流程演示</a></dd>
+                            <dd><a href="/RegUser/Register.aspx" target="_blank">注册用户 更改注册信息</a>
+                            </dd>
+                            <dd><a href="/question/default.asp" target="_blank">购物常见问题</a></dd>
+                            <dd><a href="/question/default0112.asp" target="_blank">关于特价书的常见问题</a></dd>
+                        </dl>
+                        <dl class="f2">
+                            <dt>购买问题</dt>
+                            <dd><a href="/vieworder/listorder.aspx" target="_blank">订单跟踪</a></dd>
+
+                            <dd><a href="/question/default2.asp" target="_blank">付款方式</a></dd>
+
+                            <dd><a href="/ViewOrder/deposit.aspx" target="_blank">账户余额</a>&nbsp;&nbsp;<a href="/vieworder/Refund.aspx" target="_blank">申请提现</a></dd>
+
+                            <dd><a href="/question/default3.asp" target="_blank">配送方式及费用、范围</a></dd>
+
+                            <dd><a href="/groupshop/default.asp" target="_blank">集团购买</a></dd>
+                        </dl>
+                        <dl class="f3">
+
+                            <dt>售后服务</dt>
+
+                            <dd><a href="/question/default4.asp" target="_blank">退换货流程</a></dd>
+
+                            <dd><a href="/sms/smsSend.aspx" target="_blank">投诉与建议</a></dd>
+
+                            <dd><a href="javascript:void(0)" onclick="NTKF.im_openInPageChat('kf_9067_1501484109259')" style="color:#e60000">在线客服</a></dd>
+
+                        </dl>
+
+                        <dl class="f4">
+
+                            <dt>特色服务</dt>
+
+                            <dd><a href="/ViewOrder/default.aspx" target="_blank">会员等级与积分</a></dd>
+
+                            <dd><a href="/vieworder/Card.aspx" target="_blank">中图书馨卡</a></dd>
+
+                            <dd><a href="/GROUPBUY/Subscribe.aspx" target="_blank">邮件订阅</a></dd>
+
+                            <dd><a href="/VIEWORDER/myinvite.aspx" target="_blank" style="color:#e60000">邀请好友购买返5元</a></dd>
+
+                        </dl>
+
+                        <dl class="f5" style="width:134px; border-right:1px solid #dadada">
+
+                            <dt>其他信息</dt>
+
+                            <dd><a href="/adservice/about.asp" target="_blank">本站简介</a></dd>
+
+                            <dd><a href="/adservice/about2.asp" target="_blank">联系我们</a></dd>
+
+                            <dd><a href="/adservice/bookshr.asp" target="_blank">招聘英才</a></dd>
+
+                            <dd><a href="/union/default.asp" target="_blank">网站联盟</a></dd>
+
+                            <dd><a href="/adservice/friend.aspx" target="_blank">友情链接</a></dd>
+
+                        </dl>
+
+                        <dl class="weixin margin15">
+
+                            <dt>微信公众号</dt>
+
+                            <dd>
+
+                                <img src="img/weixinerweima.jpg" alt="中图网微信" />
+
+                            </dd>
+
+                        </dl>
+
+                        <dl class="weixin">
+
+                            <dt>中图网微博</dt>
+
+                            <dd>
+
+                                <img src="img/weiboerweima.jpg" alt="中图网微博" />
+
+                            </dd>
+
+                        </dl>
+
+                        <dl class="weixin">
+
+                            <dt>手机中图</dt>
+
+                            <dd>
+
+                                <img src="img/phoneerweima.jpg" alt="手机中图" />
+
+                            </dd>
+
+                            </dl>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="friend_link" id="friend_link">
+                <div class="w1200">
+                    <div class="friend_link_inner">
+                        <dl class="clearfix">
+                            <dt>友情链接：</dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.rongbaozhai.cn/" target="_blank">荣宝斋</a></li>
+                                    <li><a href="http://www.offcn.com/" target="_blank">国家公务员考试网</a></li>
+
+                                    <li><a href="http://www.kongfz.com/ " target="_blank">孔夫子图书网</a></li>
+
+                                    <li><a href="http://tupian.baike.com/" target="_blank">互动百科</a></li>
+
+                                    <li><a href="http://www.hdb.com" target="_blank">互动吧</a></li>
+
+                                    <li><a href="http://www.e1988.com/" target="_blank">邮票</a></li>
+
+                                    <li><a href="http://www.hydcd.com/" target="_blank">汉语大辞典</a></li>
+
+                                    <li><a href="http://china.findlaw.cn/beijing" target="_blank">北京律师</a></li>
+
+                                    <li><a href="http://www.zgsydw.com/" target="_blank">事业单位招聘考试网</a></li>
+
+                                    <li><a href="http://kaoyan.koolearn.com/" target="_blank">考研网</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+                <div class="footBanner">
+                    <div class="w1200">
+                        <img src="img/footbannr.jpg" alt="中国图书网" />
+                    </div>
+                </div>
+                <div class="certifica">
+                    <div class="width820 clearfix">
+                        <div class="credit_certifica">
+                            <a href="javascript:void(0)" onclick="javascript:window.location.href='https://search.szfw.org/cert/l/CX20150319007127007283'" target="_blank" title="中国图书网诚信认证" class="p1">
+                                <img src="img/chengxin.jpg" alt="诚信认证">
+                            </a>
+                            <a href="javascript:void(0)" onclick="javascript:window.location.href='http://www.ectrustprc.org.cn/seal/splash/1000006.htm'" target="_blank" title="中国图书网电子商务诚信单位认证" class="p2"><img src="img/ectrust.jpg" alt="电子商务诚信单位认证"></a>
+
+                        </div>
+                        <div class="licence">
+                            <p><a href="http://www.miibeian.gov.cn/" target="_blank">经营许可证编号：京ICP备09013606号-3</a><a href="/include/type2.asp" target="_blank">京信市监发[2002]122号</a><span>海淀公安分局备案编号：1101083394</span></p>
+                            <p><a href="http://www.bookschina.com/Images/yyzz.jpg" target="_blank">营业执照</a><a href="/Images/jyxkz.jpg" target="_blank">出版物经营许可证</a></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="right-nav">
+            <div class="w">
+                <ul id="right-nav-list1">
+                    <li class="first">
+                        <a href="javascript:;" target="_blank">
+                            <div class="iconWrap">
+                                <img src="img/nav1.png">
+                            </div>
+                        </a>
+                        <div class="navMessage">
+                            <a href="javascript:;" target="_blank">个人中心</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="javascript:;" target="_blank">
+                            <div class="iconWrap">
+                                <img src="img/nav2.png">
+                            </div>
+                        </a>
+                        <div class="navMessage">
+                            <a href="javascript:;" target="_blank">购物车</a></div>
+                    </li>
+                    <li><a href="javascript:;" target="_blank"><div class="iconWrap"><img src="img/nav3.png"></div></a><div class="navMessage"><a href="javascript:;" target="_blank">收藏夹</a></div></li>
+                    <li><a href="javascript:;"><div class="iconWrap"><img src="img/nav4.png"></div></a><div class="navMessage"><a href="javascript:;" onclick="NTKF.im_openInPageChat('kf_9067_1501484109259')">在线客服</a></div></li>
+                    <li style="height:35px;" class="last"><a href="javascript:;"><img src="img/nav5.png" style="margin:0 auto;"></a><div class="navMessage"><a href="javascript:;">返回顶部</a></div></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </body>
+</html>
